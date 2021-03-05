@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Task Managment App</title>
+</head>
+
+<body>
+    <div id="task-manager">
+        <div id="task-dashboard">
+            <div id="management-dashboard">
+                <div class="dashboard-details-wrapper">
+                    <i class="fas fa-inbox"></i>
+                    <span>Inbox</span>
+                </div>
+                <div class="dashboard-details-wrapper">
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>Today</span>
+                </div>
+                <div class="dashboard-details-wrapper">
+                    <i class="far fa-calendar"></i>
+                    <span>Upcoming</span>
+                </div>
+                <div class="dashboard-details-wrapper">
+                    <i class="fas fa-calendar-week"></i>
+                    <span>Anytime</span>
+                </div>
+                <div class="dashboard-details-wrapper">
+                    <i class="far fa-calendar-minus"></i>
+                    <span>Someday</span>
+                </div>
+                <div class="dashboard-details-wrapper">
+                    <i class="fas fa-trash-alt"></i>
+                    <span>Trash</span>
+                </div>
+            </div>
+
+            <div id="checkbox-1">
+                <label class="container-red">Family
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-red">Vacation Planing
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-red"> Buy a new Car
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-red">Festival Ideas
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+
+            <div id="checkbox-2">
+                <label class="container-green">Work
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-green">Vacation Planing
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-green"> Buy a new Car
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-green">Festival Ideas
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div id="button-wrapper">
+                <button><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <!-- Task list -- Middle Section -->
+        <div id="task-list">
+            <h1>Today Task</h1>
+            <div id="task-list-tab-wrapper">
+                <div class="task-tab">
+                    <span class="task-badge">10</span>
+                    <span>All</span>
+                </div>
+                <div class="task-tab active">Important</div>
+                <div class="task-tab">
+                    <span class="task-badge">05</span>
+                    <span>Notes</span>
+                </div>
+                <div class="task-tab">Links</div>
+            </div>
+            <div id="task-list-bottom-section">
+                <div class="task-status">
+                    <label class="container-red-filled">Create Userflow Social Application Design
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="approved">Approved</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Homepage Design For Slimmuch Product
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="in-progress">In Progress</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Intractive prototype design: Web design
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="in-review">In Review</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Application Design for Topbuzz
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="in-review">In Review</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="in-progress">In Progress</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div id="upcoming-tasks">
+                    <p>Upcoming Tasks<p>
+                            <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <!-- Another repeatation -->
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <!-- Another repeatation -->
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Make a wireframe for Courier Delivery App
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+                <div class="task-status">
+                    <label class="container-red-filled">Create Marketplaces ashboard Design
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="waiting">Waiting</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Meeting Schedule -- Right Section -->
+        <div id="meeting-schedule">
+            <div id="meeting-details-notif">
+                <div id="logo-notif">
+                    <i class="far fa-user"></i>
+                    <span>5</span>
+                </div>
+                <h1>Meetings Schedule</h1>
+            </div>
+            <div id="meeting-card-wrapper">
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>8:05 AM - 9:20 AM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Meetings Nazmul Hassan</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png" alt="avtar-5">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>10:05 AM - 12:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Development Team</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="joined-button"><i class="fas fa-check"></i></i> You Joined</button>
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>3:00 PM - 4:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Planning</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png"
+                            alt="avtar-5">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>4:30 PM - 5:30 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Social Product Review</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="member-button"> <i class="fas fa-plus"></i> 13 Members</button>
+                    </div>
+                </div>
+                <!-- Another repeatation -->
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>8:05 AM - 9:20 AM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Meetings Nazmul Hassan</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png" alt="avtar-5">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>10:05 AM - 12:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Development Team</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="joined-button"><i class="fas fa-check"></i></i> You Joined</button>
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>3:00 PM - 4:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Planning</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png"
+                            alt="avtar-5">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>4:30 PM - 5:30 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Social Product Review</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="member-button"> <i class="fas fa-plus"></i> 13 Members</button>
+                    </div>
+                </div>
+                <!-- Another repeatation -->
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>8:05 AM - 9:20 AM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Meetings Nazmul Hassan</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png"
+                            alt="avtar-5">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>10:05 AM - 12:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Development Team</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="joined-button"><i class="fas fa-check"></i></i> You Joined</button>
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>3:00 PM - 4:20 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Product Planning</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://www.shareicon.net/data/512x512/2016/09/01/822761_user_512x512.png"
+                            alt="avtar-5">
+                        <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt="avtar-4">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                    </div>
+                </div>
+                <div class="meeting-card">
+                    <div class="time-row">
+                        <span>4:30 PM - 5:30 PM</span>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <h3>Social Product Review</h3>
+                    <div id="avtar-section">
+                        <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" alt="avtar-1">
+                        <img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+                            alt="avtar-2">
+                        <img src="https://www.shareicon.net/data/512x512/2017/01/06/868320_people_512x512.png"
+                            alt="avtar-3">
+                        <button id="member-button"> <i class="fas fa-plus"></i> 13 Members</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</body>
