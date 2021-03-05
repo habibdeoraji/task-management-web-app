@@ -18,7 +18,7 @@ body{
 /* Task dashboard ---  Left Section */
 
 #task-dashboard{
-    width: 300px;
+    width: 275px;
     min-height: 100vh;
     color: #3E5952;
     background-color: #F5F2E6;
@@ -29,11 +29,11 @@ body{
 
 
 #management-dashboard{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .dashboard-details-wrapper{
-    margin: 16px 0px;
+    margin: 12px 0px;
 }
 
 
@@ -49,13 +49,13 @@ body{
 #checkbox-1, #checkbox-2 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 .container-red, .container-green, .container-red-filled{
     display: block;
     position: relative;
-    margin: 5px 0px;
+    margin: 4px 0px;
     cursor: pointer;
     padding-left: 30px;
 }
@@ -104,7 +104,6 @@ body{
 #button-wrapper button {
     width: 40px;
     height: 40px;
-    margin-top: 20px;
     background-color: #FF4E48;
     border: none;
     color: #FFFFFF;
@@ -128,13 +127,13 @@ body{
 /* Task list ---  Middle Section */
 
 #task-list{
-    width: calc(75% - 300px);
+    width: calc(75% - 275px);
     min-height: 100vh;
     color: #FFFFFF;
     box-sizing: border-box;
     background-color: #163631;
     padding: 48px 0;
-    margin-left: 300px;
+    margin-left: 275px;
 }
 
 
@@ -395,7 +394,7 @@ body{
 #avtar-section img {
     width: 36px;
     height: 36px;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 5px 10px 0px;
 }
 
 #joined-button {
@@ -408,7 +407,7 @@ body{
 }
 
 #avtar-section button {
-    margin-left: 20px;
+/*     margin-left: 20px; */
     width: 110px;
     height: 36px;
     background-color: #FFFFFF;
@@ -422,7 +421,7 @@ body{
 }
 
 .meeting-card{
-    padding: 18px 20px;
+    padding: 18px 12px;
     margin: 24px 0;
     box-sizing: border-box;
     border-radius: 10px;
@@ -451,4 +450,5 @@ body{
     color: #608472;
     background-color: #D8FFE2;
 }
+
 
